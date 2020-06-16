@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>OTP Verification</title>
+</head>
+<body>
+
+
+<div class="login-box">
+    <h2>OTP Verification</h2>
+    <form action="/otp" method="post">
+        <div class="user-box">
+
+            <input type = "text" name = "entered_otp"  maxlength="4" pattern="\d{4}" required/>
+            <label>Enter OTP</label>
+
+
+        </div>
+    <input type="submit" value="Submit OTP"/>
+    </form>
+</div>
+
+</body>
+</html>
